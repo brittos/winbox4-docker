@@ -6,12 +6,13 @@ export LC_ALL=en_US.UTF-8
 export DISPLAY=:1
 
 # garantir diretórios e symlink (corrige mounts que sobrescrevem /root)
-mkdir -p /winbox/MikroTik/WinBox
-mkdir -p /root/.local/share/MikroTik/WinBox
+mkdir -p /winbox/MikroTik/WinBox/
+mkdir -p /root/.local/share/
 ln -sfn /winbox/MikroTik /root/.local/share/MikroTik
 
 # criar arquivos vazios para evitar warnings do WinBox
 touch /root/.local/share/MikroTik/WinBox/Addresses.cdb
+touch /root/.local/share/MikroTik/WinBox/settings.cfg.viw
 touch /root/.local/share/MikroTik/WinBox/settings.cfg.viw2
 
 XVFB_PID=""
