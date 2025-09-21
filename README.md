@@ -58,7 +58,7 @@ docker build -t winbox:latest c:\tmp\winbox-4
 
 ## License / Notice
 This repository only packages the WinBox binary downloaded from MikroTik's website; respect the original software license and terms of use.
-```// filepath: c:\tmp\winbox-4\README.md
+// filepath: c:\tmp\winbox-4\README.md
 # winbox-4 (Dockerized WinBox)
 
 Containerized WinBox (MikroTik) running inside a headless X server + VNC.  
